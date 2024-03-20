@@ -1,0 +1,38 @@
+.systemListContrainer {
+  margin-top: 20px;
+}
+
+.systemListItem {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.systemItemBox {
+  width: calc(33.33% - 10px);
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.systemItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #fff;
+  border: solid 0.075rem;
+  border-color: #5d9eea;
+  color: #707070;
+  transition: background-color 0.125s ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background-color: #0071ff;
+    border-color: #0071ff;
+    color: #fff;
+  }
+}
