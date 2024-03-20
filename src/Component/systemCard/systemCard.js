@@ -3,7 +3,7 @@ import './systemCard.scss';
 
 const SystemCard = ({ systemList }) => {
     const navigateURL = (url) => {
-        window.open(url, '_blank'); // Open URL in a new tab
+        window.open(url, '_blank');
       };
 
     return (
