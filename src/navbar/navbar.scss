@@ -6,3 +6,58 @@
     padding-top: 0.5rem;
 }
 
+.logo {
+    width: 40%;
+}
+
+#logo {
+    width: 50%;
+    margin-left: 0.5rem;
+}
+
+.systemName {
+    width: 30%;
+}
+
+#system_name {
+    font-family: MS Sans Serif, Geneva, sans-serif;
+    color: #0173c2;
+    font-size: 2rem;
+}
+
+.userLogin {
+    width: 40%;
+    display: flex;
+}
+.userLoginBox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+#user_icon {
+    width: 30px;
+}
+
+#login_name {
+    color: #666869;
+    margin-right: 1rem;
+}
+
+#logout_button {
+    height: 32px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b71c1c;
+    border-color: #b71c1c;
+    color: #fff;
+    cursor: pointer;
+    &:hover {
+        background-color: #c4374c;
+        border-color: #c4374c;
+    }
+}
